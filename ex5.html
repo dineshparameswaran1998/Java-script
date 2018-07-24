@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Javascript variables</title>
+</head>
+<body>
+<h1>Enter your marks:</h1>
+<label for="p1"><b>physics 1:</b></label>
+<input type="number" id="p1"><br>
+
+<label for="p2"><b>physics 2:</b></label>
+<input type="number" id="p2"><br>
+
+<label for="c1"><b>chemistry 1:</b></label>
+<input type="number" id="c1"><br>
+<label for="c2"><b>chemistry 2:</b></label>
+<input type="number" id="c2"><br>
+<button onclick="result()">Get Result</button>
+<script>
+function result(){
+var p1,p2,c1,c2;
+m1=document.getElementById("p1").value;
+m2=document.getElementById("p2").value;
+m3=document.getElementById("c1").value;
+m4=document.getElementById("c2").value;
+document.write("Physics 1="+m1 );
+document.write("Physics 2="+m2 );
+document.write("Chemsitry 1="+m3 );
+document.write("Chemistry 2="+m4 );}
+</script>
+</body>
+</html>
